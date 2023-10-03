@@ -7,7 +7,7 @@
 
 An example of using the command with no arguments.
 
-![Image](imageName.png)
+![Image](Noargcd.png)
 
 I was at directory lecture1 when the command was run. It did not have any output however it moved me back from lecture directory to the original position.
 
@@ -23,7 +23,7 @@ An example of using the command with a path to a file as an argument.
 
 An example of using the command with no arguments.
 
-![Image](imageName.png)
+![Image](Noargls.png)
 
 An exmaple of using the command with a path to a directory as an argument.
 
@@ -37,7 +37,7 @@ An example of using the command with a path to a file as an argument.
 
 An example of using the command with no arguments.
 
-![Image](imageName.png)
+![Image](Noargcat.png)
 
 I was at directory lecture1 when the command was run. It outputs a new line wait for me to enter a name file. The output is not an error.
 
