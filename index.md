@@ -13,11 +13,11 @@ I was at directory lecture1 when the command was run. It did not have any output
 
 An exmaple of using the command with a path to a directory as an argument.
 
-![Image](imageName.png)
+![Image](cddir.png)
 
 An example of using the command with a path to a file as an argument.
 
-![Image](imageName.png)
+![Image](cdf.png)
 
 **Commands ls**
 
