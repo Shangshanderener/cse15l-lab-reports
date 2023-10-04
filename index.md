@@ -57,5 +57,3 @@ I was at directory lecture1 when the command was run. It outputs an error showin
 ![Image](png/catf.png)
 
 I was at directory lecture1 when the command was run. It outputs the code in the Hello.java file. No errors.
-
-https://shangshanderener.github.io/cse15l-lab-reports/
