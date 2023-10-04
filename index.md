@@ -1,4 +1,6 @@
-**Commands cd** 
+## Lab 1 report
+
+**Commands `cd`** 
 
 **An example of using the command with no arguments.** 
 
@@ -18,7 +20,7 @@ I was at home directory when the command was run. It did not have any output how
 
 I was at home directory when the command was run. It outputs an error saying that the destination we are changing is not a directory.
 
-**Commands ls**
+**Commands `ls`**
 
 **An example of using the command with no arguments.**
 
@@ -38,7 +40,7 @@ I was at directory lecture1 when the command was run. It outputs the list of fil
 
 I was at directory lecture1 when the command was run. No errow was shown however it only outputs the name of file in the input argument "Hello.java". This is because it does not have any files or directory unders it.
 
-**Command cat**
+**Command `cat`**
 
 **An example of using the command with no arguments.**
 
