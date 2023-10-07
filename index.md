@@ -1,5 +1,7 @@
 ## Lab 1 report
 
+[lab report 1](lab-reports-1.html)
+
 **Commands `cd`** 
 
 **An example of using the command with no arguments.** 
