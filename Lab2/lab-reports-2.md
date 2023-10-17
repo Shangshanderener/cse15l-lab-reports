@@ -147,11 +147,11 @@ The values of two relevant fields List<String> lines and int count within the St
 
 **The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer).** 
 
-![Image](png/on.png)
+![Image](png/local.png)
 
 **The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6).** 
 
-![Image](png/local.png)
+![Image](png/on.png)
 
 **A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.** 
 
