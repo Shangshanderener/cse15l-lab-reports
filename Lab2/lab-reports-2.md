@@ -1,4 +1,4 @@
-## Lab 1 report
+## Lab report 2
 
 **Commands `cd`** 
 
