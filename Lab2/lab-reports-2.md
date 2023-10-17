@@ -158,3 +158,7 @@ The values of two relevant fields List<String> lines and int count within the St
 ![Image](png/nopass.png)
 
 ### **Part 3**
+
+**In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.** 
+
+During weeks 2 and 3, I learned how to host a server, set up my remote computer, customize my own URL, and modify my web page. I also learned how to avoid entering a password when logging into my remote computer by generating an SSH key and using the scp command to copy files to the remote directory via SSH. These were all things I didn't know before.
