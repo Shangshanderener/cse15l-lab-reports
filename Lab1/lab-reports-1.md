@@ -32,7 +32,7 @@ I was at home directory when the command was run. It outputs list of directory a
 
 ![Image](png/lsdir.png)
 
-I was at directory lecture1 when the command was run. It lists the contents of the specified directory. In this case, the output is the all of the contents in the messages directory. No error.
+I was at directory lecture1 when the command was run. It lists the contents of the specified directory. In this case, the output is the all of the contents in the messages directory. No error. *Even if running ls with an empty file, it will still listing the attributes and information related to that file, just like it would for any other file. This is becuase an empty file is still a file in the file system.
 
 **An example of using the command with a path to a file as an argument.**
 
