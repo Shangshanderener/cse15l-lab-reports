@@ -18,7 +18,7 @@ I was at home directory when the command was run. It did not have any output how
 
 ![Image](png/cdf.png)
 
-I was at home directory when the command was run. It outputs an error saying that the destination we are changing is not a directory.
+I was at home directory when the command was run. It outputs an error saying that the destination we are changing is not a directory. Since the purpose of command cd is to change the current working directory to a specified location in the file system, and it expects the destination to be a directory, not a file. In this case, the reason this error showed up because I'm trying to move from current directory to a file which is not allow.
 
 **Commands `ls`**
 
@@ -32,7 +32,7 @@ I was at home directory when the command was run. It outputs list of directory a
 
 ![Image](png/lsdir.png)
 
-I was at directory lecture1 when the command was run. It outputs the list of files in the input argument "messages" because the messages directory is not empty. No error showen.
+I was at directory lecture1 when the command was run. It lists the contents of the specified directory. In this case, the output is the all of the contents in the messages directory. No error.
 
 **An example of using the command with a path to a file as an argument.**
 
@@ -46,13 +46,13 @@ I was at directory lecture1 when the command was run. No errow was shown however
 
 ![Image](png/Noargcat.png)
 
-I was at directory lecture1 when the command was run. It outputs a new line waiting for me to enter a name file. The output is not an error.
+I was at directory lecture1 when the command was run. It waits for input from the teminal, and the user type text directly into the terminal, and cat will display it on the screen. Is not an error, because it is a way to interactively input and view text.
 
 **An exmaple of using the command with a path to a directory as an argument.**
 
 ![Image](png/catdir.png)
 
-I was at directory lecture1 when the command was run. It outputs an error showing that it is a directory. This is because the system can not print out the directory.
+I was at directory lecture1 when the command was run. It outputs an error showing that it is a directory. This is because cat is designed to work with files, not directories. The purpose of the cat command is to display the contents of text files or concatenate the contents of multiple text files.
 
 **An example of using the command with a path to a file as an argument.**
 
