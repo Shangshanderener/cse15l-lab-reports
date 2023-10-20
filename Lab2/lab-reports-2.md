@@ -77,7 +77,6 @@ class StringServer {
 }
 ```
 
-
 ![Image](png/hello.png)
 
 **Which methods in your code are called?** 
