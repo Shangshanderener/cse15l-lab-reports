@@ -81,67 +81,103 @@ class StringServer {
 ![Image](png/hello.png)
 
 **Which methods in your code are called?** 
-
-In my code handleRequest, url.getQuery, url.getPath, equals, query.startsWith, URLDecoder.decode, substring, String.format, and add method are called.
-
+<li> handleRequest
+<li> url.getQuery
+<li> url.getPath
+<li> equals
+<li> query.startsWith
+<li> URLDecoder.decode
+<li> toString
+<li> substring
+<li> String.format
+<li> add
+  
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?** 
+<li> handleRequest(URI url): The relevant argument is a type URI url.
 
-handleRequest(URI url): The relevant argument is the URI url.
+<li> url.getQuery(): No relevant argument.
 
-url.getQuery(): No relevant argument.
+<li> url.getPath(): No relevant argument.
 
-url.getPath(): No relevant argument.
+<li> equals(): The relevant argument is a string.
 
-equals(): The relevant argument is a string.
+<li> query.startsWith(): The relevant argument is a string.
 
-query.startsWith(): The relevant argument is a string.
+<li> URLDecoder.decode(): Two relevant argument are first the string of you want to decode, and second the string of name of the character encoding to be used when decoding the string.
 
-URLDecoder.decode(): TWo relevant argument are first the string of you want to decode, and second the string of name of the character encoding to be used when decoding the string.
+<li> toString: No relevant argument.
 
-substring(): The relevant argument is integer.
+<li> substring(): The relevant argument is integer.
 
-String.format(): Threr are two parts of relevant argument, first part is the string of thing with "%s" that you want substituted, seconde part is the type of thing you want to substitute in.
+<li> String.format(): Threr are two parts of relevant argument, first part is the string of thing with "%s" that you want substituted, seconde part is the type of thing you want to substitute in.
 
-add(): The relevant argument is string.
+<li> add(): The relevant argument is string.
 
-Values of relevant fields of the class are List<String> lines, String path, int count.
-
+Values of relevant fields of the class:
+<li> List<String> lines
+<li> String path
+<li> int count.
+<li> URI url
+<li> String query
+<li> String decodedQuery
+<li> String toAdd
+<li> String result
+  
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** 
 
-The values of two relevant fields lines and count is change based on this specific request. The lines field stores the lines of text read from the file. This field is changeed when the "/add-message" request is received and processed. If a message is successfully added to the list of lines, the lines field is modified to include the new message. The count field is used to keep track the number order of the message. It gets incremented every time when a new message is successfully added in response to an "/add-message" request. So, if a message is added, the count field will be incremented to by 1 starting at 1.
-
+The values of two relevant fields List<String> lines and int count within the StringHandler class is change based on this specific request. The line field stores the lines of text read from the file. This field is changeed when the "/add-message" request is received and processed. If a message is successfully added to the list of lines, the lines field is modified to include the new message. The count field is used to keep track the number order of the message. It gets incremented every time when a new message is successfully added in response to an "/add-message" request. So, if a message is added, the count field will be incremented to by 1 starting at 1. Rest of the values that are in the handleRequest are not changed, because every time when the handleRequest is called, those value will be re-created and assigning new values. Unlike value lines and count, they are global values and will only updates or add. In addition global value path is also not changed becauae it is just the path to the txt file for save added words, and no need to be changed.
 
 ![Image](png/Howareyou.png)
 
 **Which methods in your code are called?** 
-
-In my code handleRequest, url.getQuery, url.getPath, equals, query.startsWith, URLDecoder.decode, substring, String.format, and add method are called.
+<li> Integer.parseInt
+<li> Server.start
+<li> Files.readAllLines
+<li> handleRequest
+<li> url.getQuery
+<li> url.getPath
+<li> equals
+<li> query.startsWith
+<li> URLDecoder.decode
+<li> toString
+<li> substring
+<li> String.format
+<li> add
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?** 
+<li> handleRequest(URI url): The relevant argument is a type URI url.
 
-handleRequest(URI url): The relevant argument is the URI url.
+<li> url.getQuery(): No relevant argument.
 
-url.getQuery(): No relevant argument.
+<li> url.getPath(): No relevant argument.
 
-url.getPath(): No relevant argument.
+<li> equals(): The relevant argument is a string.
 
-equals(): The relevant argument is a string.
+<li> query.startsWith(): The relevant argument is a string.
 
-query.startsWith(): The relevant argument is a string.
+<li> URLDecoder.decode(): Two relevant argument are first the string of you want to decode, and second the string of name of the character encoding to be used when decoding the string.
 
-URLDecoder.decode(): TWo relevant argument are first the string of you want to decode, and second the string of name of the character encoding to be used when decoding the string.
+<li> toString: No relevant argument.
 
-substring(): The relevant argument is integer.
+<li> substring(): The relevant argument is integer.
 
-String.format(): Threr are two parts of relevant argument, first part is the string of thing with "%s" that you want substituted, seconde part is the type of thing you want to substitute in.
+<li> String.format(): Threr are two parts of relevant argument, first part is the string of thing with "%s" that you want substituted, seconde part is the type of thing you want to substitute in.
 
-add(): The relevant argument is string.
+<li> add(): The relevant argument is string.
 
-Values of relevant fields of the class are List<String> lines, String path, int count.
+Values of relevant fields of the class:
+<li> List<String> lines
+<li> String path
+<li> int count.
+<li> URI url
+<li> String query
+<li> String decodedQuery
+<li> String toAdd
+<li> String result
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** 
 
-The values of two relevant fields List<String> lines and int count within the StringHandler class is change based on this specific request. The line field stores the lines of text read from the file. This field is changeed when the "/add-message" request is received and processed. If a message is successfully added to the list of lines, the lines field is modified to include the new message. However in this specific request, when you pass a URL as a query parameter in a web application, spaces and other special characters they will be automatically transmitted into "+" or "%20" and showing in a URL. to fix the issue, I will have to decode the encoded characters "+" or "%20" back to their original form by using the URLDecoder.decode() method. The count field is used to keep track the number order of the message. It gets incremented every time when a new message is successfully added in response to an "/add-message" request. So, if a message is added, the count field will be incremented to by 1 starting at 1.
+The values of two relevant fields List<String> lines and int count within the StringHandler class is change based on this specific request. The line field stores the lines of text read from the file. This field is changeed when the "/add-message" request is received and processed. If a message is successfully added to the list of lines, the lines field is modified to include the new message. The count field is used to keep track the number order of the message. It gets incremented every time when a new message is successfully added in response to an "/add-message" request. So, if a message is added, the count field will be incremented to by 1 starting at 1. Rest of the values that are in the handleRequest are not changed, because every time when the handleRequest is called, those value will be re-created and assigning new values. Unlike value lines and count, they are global values and will only updates or add. In addition global value path is also not changed becauae it is just the path to the txt file for save added words, and no need to be changed.
 
 ### **Part 2**
 
