@@ -116,7 +116,7 @@ class StringServer {
 Values of relevant fields of the class:
 <li> List<String> lines
 <li> String path
-<li> int count.
+<li> int count
   
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** 
 
@@ -164,7 +164,7 @@ The values of two relevant fields List<String> lines and int count within the St
 Values of relevant fields of the class:
 <li> List<String> lines
 <li> String path
-<li> int count.
+<li> int count
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** 
 
