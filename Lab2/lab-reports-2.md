@@ -1,7 +1,5 @@
 ## Lab report 2
 
-**Commands `cd`** 
-
 ### **Part 1** 
 
 **Code for my StringServer** 
@@ -92,7 +90,7 @@ class StringServer {
 <li> String.format
 <li> add
   
-**What are the relevant arguments to those methods, and the values of any relevant fields of the class?** 
+**The relevant arguments to those methods:** 
 
 <li> handleRequest(URI url): The relevant argument is a type URI url.
 
@@ -114,7 +112,7 @@ class StringServer {
 
 <li> add(): The relevant argument is string.
 
-Values of relevant fields of the class:
+**Values of relevant fields of the class:**
 
 <li> List<String> lines
 <li> String path
@@ -142,7 +140,7 @@ The values of two relevant fields List<String> lines and int count within the St
 <li> String.format
 <li> add
 
-**What are the relevant arguments to those methods, and the values of any relevant fields of the class?** 
+**The relevant arguments to those methods:** 
 
 <li> handleRequest(URI url): The relevant argument is a type URI url.
 
@@ -164,7 +162,7 @@ The values of two relevant fields List<String> lines and int count within the St
 
 <li> add(): The relevant argument is string.
 
-Values of relevant fields of the class:
+**Values of relevant fields of the class:**
 
 <li> List<String> lines
 <li> String path
