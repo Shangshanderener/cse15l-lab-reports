@@ -78,41 +78,35 @@ class StringServer {
 
 **Which methods in your code(Screenshot) are called?** 
 
-<ul>
-<li> handleRequest
-<li> url.getQuery
-<li> url.getPath
-<li> equals
-<li> query.startsWith
-<li> URLDecoder.decode
-<li> toString
-<li> substring
-<li> String.format
-<li> add
-</ul>
+-  handleRequest
+-  url.getQuery
+-  url.getPath
+-  equals
+-  query.startsWith
+-  URLDecoder.decode
+-  toString
+-  substring
+-  String.format
+-  add
   
 **The relevant arguments to those methods:** 
 
-<ul>
-<li> handleRequest(URI url): The relevant argument is a type URI url.
-<li> url.getQuery(): No relevant argument.
-<li> url.getPath(): No relevant argument.
-<li> equals(): The relevant argument is a string.
-<li> query.startsWith(): The relevant argument is a string.
-<li> URLDecoder.decode(): Two relevant argument are first the string of you want to decode, and second the string of name of the character encoding to be used when decoding the string.
-<li> toString: No relevant argument.
-<li> substring(): The relevant argument is integer.
-<li> String.format(): Threr are two parts of relevant argument, first part is the string of thing with "%s" that you want substituted, seconde part is the type of thing you want to substitute in.
-<li> add(): The relevant argument is string.
-</ul>
+-  handleRequest(URI url): The relevant argument is a type URI url.
+-  url.getQuery(): No relevant argument.
+-  url.getPath(): No relevant argument.
+-  equals(): The relevant argument is a string.
+-  query.startsWith(): The relevant argument is a string.
+-  URLDecoder.decode(): Two relevant argument are first the string of you want to decode, and second the string of name of the character encoding to be used when decoding the string.
+-  toString: No relevant argument.
+-  substring(): The relevant argument is integer.
+-  String.format(): Threr are two parts of relevant argument, first part is the string of thing with "%s" that you want substituted, seconde part is the type of thing you want to substitute in.
+-  add(): The relevant argument is string.
 
 **Values of relevant fields of the class:**
 
-<ul>
-<li> List<String> lines
-<li> String path
-<li> int count
-</ul>
+-  List<String> lines
+-  String path
+-  int count
   
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** 
 
@@ -122,44 +116,38 @@ The values of two relevant fields List<String> lines and int count within the St
 
 **Which methods in your code(Screenshot) are called?** 
 
-<ul>
-<li> Integer.parseInt
-<li> Server.start
-<li> Files.readAllLines
-<li> handleRequest
-<li> url.getQuery
-<li> url.getPath
-<li> equals
-<li> query.startsWith
-<li> URLDecoder.decode
-<li> toString
-<li> substring
-<li> String.format
-<li> add
-</ul>
+-  Integer.parseInt
+-  Server.start
+-  Files.readAllLines
+-  handleRequest
+-  url.getQuery
+-  url.getPath
+-  equals
+-  query.startsWith
+-  URLDecoder.decode
+-  toString
+-  substring
+-  String.format
+-  add
 
-**The relevant arguments to those methods:** 
+ **The relevant arguments to those methods:** 
 
-<ul>
-<li> handleRequest(URI url): The relevant argument is a type URI url.
-<li> url.getQuery(): No relevant argument.
-<li> url.getPath(): No relevant argument.
-<li> equals(): The relevant argument is a string.
-<li> query.startsWith(): The relevant argument is a string.
-<li> URLDecoder.decode(): Two relevant argument are first the string of you want to decode, and second the string of name of the character encoding to be used when decoding the string.
-<li> toString: No relevant argument.
-<li> substring(): The relevant argument is integer.
-<li> String.format(): Threr are two parts of relevant argument, first part is the string of thing with "%s" that you want substituted, seconde part is the type of thing you want to substitute in.
-<li> add(): The relevant argument is string.
-</ul>
-
+-  handleRequest(URI url): The relevant argument is a type URI url.
+-  url.getQuery(): No relevant argument.
+-  url.getPath(): No relevant argument.
+-  equals(): The relevant argument is a string.
+-  query.startsWith(): The relevant argument is a string.
+-  URLDecoder.decode(): Two relevant argument are first the string of you want to decode, and second the string of name of the character encoding to be used when decoding the string.
+-  toString: No relevant argument.
+-  substring(): The relevant argument is integer.
+-  String.format(): Threr are two parts of relevant argument, first part is the string of thing with "%s" that you want substituted, seconde part is the type of thing you want to substitute in.
+-  add(): The relevant argument is string.
+ 
 **Values of relevant fields of the class:**
 
-<ul>
-<li> List<String> lines
-<li> String path
-<li> int count
-</ul>
+-  List<String> lines
+-  String path
+-  int count
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** 
 
