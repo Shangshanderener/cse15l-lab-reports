@@ -79,7 +79,8 @@ class StringServer {
 
 ![Image](png/hello.png)
 
-**Which methods in your code are called?** 
+**(Screenshot)Which methods in your code are called?** 
+
 <li> handleRequest
 <li> url.getQuery
 <li> url.getPath
@@ -92,6 +93,7 @@ class StringServer {
 <li> add
   
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?** 
+
 <li> handleRequest(URI url): The relevant argument is a type URI url.
 
 <li> url.getQuery(): No relevant argument.
@@ -113,6 +115,7 @@ class StringServer {
 <li> add(): The relevant argument is string.
 
 Values of relevant fields of the class:
+
 <li> List<String> lines
 <li> String path
 <li> int count
@@ -121,10 +124,10 @@ Values of relevant fields of the class:
 
 The values of two relevant fields List<String> lines and int count within the StringHandler class is change based on this specific request. The line field stores the lines of text read from the file. This field is changeed when the "/add-message" request is received and processed. If a message is successfully added to the list of lines, the lines field is modified to include the new message. The count field is used to keep track the number order of the message. It gets incremented every time when a new message is successfully added in response to an "/add-message" request. So, if a message is added, the count field will be incremented to by 1 starting at 1. The value path is not changed becauae it is just the path to the txt file to save added words, and no need to be changed.
 
-
 ![Image](png/Howareyou.png)
 
-**Which methods in your code are called?** 
+**(Screenshots)Which methods in your code are called?** 
+
 <li> Integer.parseInt
 <li> Server.start
 <li> Files.readAllLines
@@ -140,6 +143,7 @@ The values of two relevant fields List<String> lines and int count within the St
 <li> add
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?** 
+
 <li> handleRequest(URI url): The relevant argument is a type URI url.
 
 <li> url.getQuery(): No relevant argument.
@@ -161,6 +165,7 @@ The values of two relevant fields List<String> lines and int count within the St
 <li> add(): The relevant argument is string.
 
 Values of relevant fields of the class:
+
 <li> List<String> lines
 <li> String path
 <li> int count
