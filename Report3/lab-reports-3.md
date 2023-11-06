@@ -178,3 +178,9 @@ $ find -type f -mtime -2
 ```
 
 - Using the -mtime option, you are able to display files or directories that have or haven't been modified in certain intervals of time (arguments * 24 hours ago). + means files or directories that haven't been modified, and - means files or directories that have been modified within past time. This is useful because sometimes you want to know which files or directories are modified or not modified at a period of time.
+
+**Citation**
+
+**Kenlon, Seth. “10 Ways to Use the Linux Find Command.” Enable Sysadmin, Red Hat, Inc., 12 Jan. 2023, www.redhat.com/sysadmin/linux-find-command. Accessed 05 Nov. 2023.**
+
+- All examples are from the same website!
