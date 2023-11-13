@@ -6,27 +6,27 @@
 **Step 4: Log into ieng6** 
 
 ```
-ssh cs15lfa23al@ieng6.ucsd.edu
+ssh cs15lfa23al@ieng6.ucsd.edu <enter>
 ```
   
 **Step 5: Clone your fork of the repository from your Github account** 
 
 ```
-git clone git@github.com:ucsd-cse15l-s23/lab7.git
-cd lab7
+git clone git@github.com:ucsd-cse15l-s23/lab7.git <enter>
+cd lab7 <enter>
 ```
 
 **Step 6: Run the tests, demonstrating that they fail** 
 
 ```
-javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
-java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests
+javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java <enter>
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests <enter>
 ```
 
 **Step 7: Edit the code file to fix the failing test** 
 
 ```
-Vim ListExamples.java
+Vim ListExamples.java <enter>
 <shift> g
 <up><up><up><up><up><up>
 w
@@ -34,20 +34,20 @@ i
 <backspace>
 2
 <Esc>
-:wq
+:wq <enter>
 ```
 
 **Step 8: Run the tests, demonstrating that they now succeed** 
 
 ```
-javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
-java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore 
+javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java <enter>
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests <enter>
 ```
 
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)** 
 
 ```
-git add ListExamples.java
-git commit -m "bug fixed"
-git push
+git add ListExamples.java <enter>
+git commit -m "bug fixed" <enter>
+git push <enter>
 ```
