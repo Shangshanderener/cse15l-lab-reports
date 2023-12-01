@@ -5,3 +5,5 @@
 [Lab Report 3](Report3/lab-reports-3.html)
 
 [Lab Report 4](Report4/lab-reports-4.html)
+
+[Lab Report 5](Report5/lab-reports-5.html)
