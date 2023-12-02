@@ -3,7 +3,7 @@
 ### **Part 1 – Debugging Scenario** 
 
 
-**1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)** 
+**1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is** 
 
 > Original Post on Edstem
 >
@@ -11,17 +11,17 @@
 >
 > Content:
 >
-> I am currently working on the Java program SentencePrinter.java, which reads each line of word and combine into sentence. I ran the program using a bash script called run.sh. However, output is very odd. The program seems skipped some lines on the display.
+> I am currently working on a Java program called SentencePrinter.java, which reads each line of word and combine into one sentence. When I ran the program using run.sh (a bash script that I created running javac and java). However, the output is very odd. The program seems skipped some lines on the display.
 >
-> Here here is the screenshot after running run.sh
+> Screenshot of after running run.sh
 >
 > ![Image](png/1.png)
 >
-> Here is my code:
+> Screenshot of my code:
 >
 > ![Image](png/2.png)
 >
-> I think the bug might be related to reading files and how it processes each line. I'm very confusing right now and wonder what causing this output. Any hint or help would be really helpful! Thanks!
+> I think the bug might be related to reading files and how it processes each line during iteration. I'm very confusing right now and wonder what causing this output. Any hint or help would be really helpful! Thanks!
 
 **2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)**
 
