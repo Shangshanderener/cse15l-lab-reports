@@ -11,7 +11,7 @@
 >
 > Content:
 >
-> I am currently working on a Java program called SentencePrinter.java, which reads each line of word and combine into one sentence. When I ran the program using run.sh (a bash script that I created running javac and java). However, the output is very odd. The program seems skipped some lines on the display.
+> I am currently working on a Java program called SentencePrinter.java, which reads each line of word and combine into one sentence. When I ran the program using run.sh (a bash script that I created running javac and java). However, the output is very odd. The program seems skipped some lines when scanning through each line in the txt file.
 >
 > Screenshot of after running run.sh
 >
@@ -21,13 +21,13 @@
 >
 > ![Image](png/2.png)
 >
-> I think the bug might be related to reading files and how it processes each line during iteration. I'm very confusing right now and wonder what causing this output. Any hint or help would be really helpful! Thanks!
+> I think the bug might be related to reading files and how it processes each line during iteration. I'm very confusing right now and wonder what causes this output. Any hint or help would be really helpful! Thanks!
 
 **2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)**
 
 > Response from TA:
 >
-> Hi there, thank you for sharing your code and the output, it makes us much easier to check the problem in your code. I think what you said is probably the problem here. You should try adding a print statement in your loop, this would help you figure out which line is skipped.
+> Hi there, thank you for sharing your code and the output, it makes us much easier to figure out the problem in your code. I think what you said is probably the problem here. You should try adding a print statement in your loop, this would help you figure out which line is skipped.
 
 **3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
 
@@ -35,7 +35,7 @@
 >
 > ![Image](png/3.png)
 >
-> Thank you very much! By comparing new output with my old output, I noticed that indeed my program is skipping lines. I realized that I don't have to call readLine() again at the end of while loop, because my while statement will call it when is running next iteration. 
+> Thank you very much! After comparing new output with my old output, I noticed that indeed my program is skipping lines. I realized that I don't have to call readLine() again at the end of while loop, since my while statement will call it everytime when new iteration begins. 
 
 **4. At the end, all the information needed about the setup including**
 
